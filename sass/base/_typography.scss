@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as v;
+
+body {
+    font-family: v.$body-font-family;
+}
+
+h1 {
+    font-family: v.$heading-font-family;
+}
+
+h2 {
+    font-family: v.$subtitle-font-family;
+}
+
+span {
+    font-family: v.$labels-font-family;
+}
